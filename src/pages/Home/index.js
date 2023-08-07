@@ -1,4 +1,4 @@
-import "./styles.js";
+import "./home.css";
 import mainImag from "../../assets/images/image-web-3-desktop.jpg";
 import gameImag from "../../assets/images/image-retro-pcs.jpg";
 import keyboardImag from "../../assets/images/image-top-laptops.jpg";
@@ -47,23 +47,26 @@ function Home() {
                 the power of the platforms back into the hands of the people.
                 But is it really fulfilling its promise?
               </MainContainerAContentDesc>
-              <Button>READ MORE</Button>
+              <Button className="button">READ MORE</Button>
             </MainContainerADiv>
           </MainContainerAContent>
         </MainContainerA>
         <MainContainerB>
           <ContainerBTitle>New</ContainerBTitle>
-          <ContainerBParagraph></ContainerBParagraph>
 
           <ContentDivB hasBorder={true}>
-            <NormalTitle>Hydrogen VS Electric Cars</NormalTitle>
+            <NormalTitle className="title">
+              Hydrogen VS Electric Cars
+            </NormalTitle>
             <ContainerBParagraph>
               Will hydrogen-fueled cars ever catch up to EVs?
             </ContainerBParagraph>
           </ContentDivB>
 
           <ContentDivB hasBorder>
-            <NormalTitle>The Downsides of AI Artistry</NormalTitle>
+            <NormalTitle className="title">
+              The Downsides of AI Artistry
+            </NormalTitle>
             <ContainerBParagraph>
               What are the possible adverse effects of on-demand AI image
               generation?
@@ -71,7 +74,9 @@ function Home() {
           </ContentDivB>
 
           <ContentDivB>
-            <NormalTitle>Is VC Funding Drying Up?</NormalTitle>
+            <NormalTitle className="title">
+              Is VC Funding Drying Up?
+            </NormalTitle>
             <ContainerBParagraph>
               Private funding by VC firms is down 50% YOY. We take a look at
               what that means.
@@ -93,7 +98,7 @@ function Home() {
             >
               01
             </ChildInfo>
-            <ChildInfo fontWeight="800" fontSize="15px">
+            <ChildInfo className="bottomTitle" fontWeight="800" fontSize="15px">
               Reviving Retro PCs
             </ChildInfo>
             <ChildInfo color="hsl(236, 13%, 42%)">
@@ -115,7 +120,7 @@ function Home() {
             >
               02
             </ChildInfo>
-            <ChildInfo fontWeight="800" fontSize="15px">
+            <ChildInfo className="bottomTitle" fontWeight="800" fontSize="15px">
               Top 10 Laptops of 2022
             </ChildInfo>
             <ChildInfo color="hsl(236, 13%, 42%)">
@@ -138,7 +143,7 @@ function Home() {
             >
               03
             </ChildInfo>
-            <ChildInfo fontWeight="800" fontSize="15px">
+            <ChildInfo className="bottomTitle" fontWeight="800" fontSize="15px">
               The Growth of Gaming
             </ChildInfo>
             <ChildInfo color="hsl(236, 13%, 42%)">

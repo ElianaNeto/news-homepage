@@ -71,6 +71,7 @@ export const Button = styled.button`
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 3px;
+  cursor: pointer;
 `;
 
 export const MainContainerB = styled.div`
@@ -86,6 +87,7 @@ export const ContainerBTitle = styled.h1`
 
 export const NormalTitle = styled.h3`
   color: hsl(36, 100%, 99%);
+  cursor: pointer;
 `;
 
 export const ContainerBParagraph = styled.p`
@@ -137,4 +139,5 @@ font-size: ${(props) => (props.fontSize ? props.fontSize : '14px')};
 font-weight:${(props) => (props.fontWeight ? props.fontWeight : "none") };
 font-family: 'Inter', sans-serif;
 margin-bottom: 10px;
+cursor: pointer;
 `;
