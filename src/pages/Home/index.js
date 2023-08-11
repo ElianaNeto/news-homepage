@@ -1,8 +1,7 @@
 import { useMediaQuery } from 'react-responsive';
 
-import DesktopComponent from "../../components/DesktopComponent";
-import MobileComponent from "../../components/MobileComponent";
-import "./home.css";
+import DesktopComponent from "../../components/Desktop/DesktopComponent";
+import MobileComponent from "../../components/Mobile/MobileComponent";
 
 function Home() {
 

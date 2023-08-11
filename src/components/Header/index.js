@@ -1,22 +1,16 @@
-import { Link } from "react-router-dom";
-import logo from '../../assets/images/logo.svg'
-import './header.css'
+import { useMediaQuery } from 'react-responsive';
+import DesktopHeader from '../Desktop/DesktopHeader';
+import MobileHeader from '../Mobile/MobileHeader';
+
 
 function Header() {
+  const isMobile = useMediaQuery({query: ' (max-width: 425px)'});
+
   return (
-    <header className="App-header">
-
-      <Link className="logo" to="/"> <img src={logo} className="App-logo" alt="logo" /></Link>
-      <div className="navigation">
-        <Link className="home" to="/">Home</Link>
-        <Link className="new" to="/">New</Link>
-        <Link className="popular" to="/">Popular</Link>
-        <Link className="trending" to="/">Trending</Link>
-        <Link className="categories" to="/">Categories</Link>
-      </div>
-
-    </header>
-  )
+    <div>
+      {isMobile ? <MobileHeader/> : <DesktopHeader/>}
+    </div>
+  );
 
 }
 

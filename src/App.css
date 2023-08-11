@@ -4,11 +4,67 @@ body{
   font-family: 'Inter', sans-serif;
 }
 
-
-
 .App-logo {
   height: 5vmin;
   pointer-events: none;
 }
 
+a {
+  color: hsl(236, 13%, 42%);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 1000px;
+  white-space: nowrap;
+  text-decoration: none;
+}
 
+
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #FFF;
+  font-weight: bold;
+  margin-right: 20%;
+  padding-left: 0px;
+}
+
+.navigation {
+  float: left;
+  text-align: center;
+}
+
+.navigation a:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.navigation a:active {
+  color: hsl(5, 85%, 63%);
+}
+
+.button:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.title:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.bottomTitle:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+@media screen and (max-width: 425px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    color: #333; /* Cor do ícone */
+  }
+
+}

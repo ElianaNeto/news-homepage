@@ -1,7 +1,7 @@
-import mainImag from "../../assets/images/image-web-3-desktop.jpg";
-import gameImag from "../../assets/images/image-retro-pcs.jpg";
-import keyboardImag from "../../assets/images/image-top-laptops.jpg";
-import controlImag from "../../assets/images/image-gaming-growth.jpg";
+import mainImag from "../../../assets/images/image-web-3-desktop.jpg";
+import gameImag from "../../../assets/images/image-retro-pcs.jpg";
+import keyboardImag from "../../../assets/images/image-top-laptops.jpg";
+import controlImag from "../../../assets/images/image-gaming-growth.jpg";
 
 
 import {
@@ -25,9 +25,9 @@ import {
   ChildDivImg,
   ChildContent,
   ChildInfo,
-} from "./desktop.styles.js";
+} from "./mobile.styles";
 
-function DesktopComponent() {
+function MobileComponent() {
 
   return (
     <HomeContainer className="home-container">
@@ -52,6 +52,7 @@ function DesktopComponent() {
             </MainContainerADiv>
           </MainContainerAContent>
         </MainContainerA>
+
         <MainContainerB className="main-containerB">
           <ContainerBTitle>New</ContainerBTitle>
 
@@ -155,5 +156,7 @@ function DesktopComponent() {
       </BottomContainer>
     </HomeContainer>
   );
-  
-}export default DesktopComponent;
+
+
+
+} export default MobileComponent;

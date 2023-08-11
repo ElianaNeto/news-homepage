@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const HomeContainer = styled.div`
   align-items: center;
   margin: 40px 140px 0 150px;
-  width: 80%;
 `;
 export const MainContainer = styled.div`
   flex-direction: row;
