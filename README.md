@@ -15,6 +15,10 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 - [Author](#author)
 - [About the project](#about-the-project)
   - [Where to find everything](#where-to-find-everything)
+  - [Getting Started with Create React App](#getting-started-with-create-react-app)
+  - [Available Scripts](#available-Scripts)
+
+
 
 
 
