@@ -14,7 +14,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [About the project](#about-the-project)
-  -[Where to find everything](#where-to-find-everything)
+  - [Where to find everything](#where-to-find-everything)
 
 
 
